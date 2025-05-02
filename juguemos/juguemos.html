@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Juguemos/juguemos.css">
+    <title>Proyecto-Final</title>
+</head>
+<body>
+    <nav>
+        <a href="../Home/index.html">
+            <svg width="200" height="90">
+                <rect x="45" y="5" width="80" height="50" class="mon1" fill="#767a81de" stroke="#2F3645" stroke-width="2"></rect>
+                <rect x="50" y="10" width="70" height="40" class="mon2" fill="#000000" stroke="#2F3645" stroke-width="2"></rect>
+                <rect x="75" y="55" width="20" height="10" class="mon1" fill="#767a81de" stroke="#2F3645" stroke-width="2"></rect>
+
+                <polygon points="50 70,120 70 ,130 80,40 80" fill="#767a81de" strok="#2F3645" stroke-width="2" class="mon1" stroke="#2F3645"></polygon>
+                <polygon points="55 72,115 72  ,122 78,48 78" fill="#000000" class="mon2" stroke="#2F3645"></polygon>
+
+                <line x1="55" y1="19" x2="100" y2="19" stroke="transparent" stroke-width="3" class="cod"></line>
+                <line x1="55" y1="24" x2="100" y2="24" stroke="transparent" stroke-width="3" class="cod"></line>
+                <line x1="55" y1="29" x2="70" y2="29" stroke="transparent" stroke-width="3" class="cod"></line>
+
+                <line x1="55" y1="33" x2="115" y2="33" stroke="transparent" stroke-width="3" class="cod"></line>
+                <line x1="55" y1="38" x2="115" y2="38" stroke="transparent" stroke-width="3" class="cod"></line>
+            </svg>
+        </a>
+        <ul id="menuNav">
+            <li class="itemMenu"><a class="linkNav" href="../Historia/historia.html">HISTORIA</a></li>
+            <li class="itemMenu"><a class="linkNav" href="../Juguemos/juguemos.html">JUGUEMOS</a></li>
+        </ul>
+    </nav>
+
+
+    <header>
+     <h1>JUGUEMOS UN POCO</h1>
+    </header>
+
+    <main id="titulo">
+        <h2>Armemos el rompecabezas y veamos qué imagen es...</h2>
+        <section id="rompecabezas">
+          <div id="superior">
+            <img class="imagenes" id="imagen1" src="../Imágenes/rompe2.png" alt="imagen1" draggable="true">
+            
+            <div class="zonaDrop">
+              <div class="caja" id="cajaDrop1">
+                <p>Arrastre y suelte la imagen aquí</p>
+              </div>
+              <div class="caja" id="cajaDrop2">
+                <p>Arrastre y suelte la imagen aquí</p>
+              </div>
+              <div class="caja" id="cajaDrop3">
+                <p>Arrastre y suelte la imagen aquí</p>
+              </div>
+            </div>
+            
+            <img class="imagenes" id="imagen2" src="../Imágenes/Rompe1.png" alt="imagen2" draggable="true">
+          </div>
+          
+          <div id="inferior">
+            <img class="imagenes" id="imagen3" src="../Imágenes/Rompe3.png" alt="imagen3" draggable="true">
+          </div>
+      
+          <button id="reiniciar" style="display: none;">Reiniciar</button>
+        </section>
+      </main>
+
+    
+<!-- no se agregó el footer en la página original-----
+        <footer>
+            <div id="footerIzquierda">
+                <img id="logoFooter" src="../Imágenes/logo_footer.png" alt="">
+                <p>PROGRAMACION <br>
+                E <br>
+                HISTORIA</p>
+            </div>
+            <div id="footerDerecha">
+                <p>Sitio con fines educativos - Creado por M.Victoria Lopez</p>
+            </div>
+        </footer>  -->
+    <script src="../Juguemos/juguemos.js">
+    </script>
+</body>
+</html>
